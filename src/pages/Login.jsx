@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import GoogleIcon from '@mui/icons-material/Google';
 
 function Login() {
   return (
@@ -43,8 +44,9 @@ function Login() {
             </button>
             <button 
                 type='button'
-                className="border-2 rounded-sm p-2 w-full hover:bg-slate-800"
+                className="border-2 rounded-sm p-2 w-full hover:bg-slate-800 flex gap-2 justify-center items-center"
             >
+                <GoogleIcon />
                 Login with google
             </button>
         </div>
