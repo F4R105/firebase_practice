@@ -50,7 +50,7 @@ function Register() {
     </div>
     <button 
         type='submit'
-        className="bg-slate-700 p-2 w-full hover:bg-slate-800"
+        className="border-2 rounded-sm bg-slate-700 p-2 w-full hover:bg-slate-800"
     >
         Register
     </button>

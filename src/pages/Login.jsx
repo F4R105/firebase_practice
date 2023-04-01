@@ -34,12 +34,20 @@ function Login() {
                 className='p-2 text-gray-800 rounded-sm'
             />
         </div>
-        <button 
-            type='submit'
-            className="bg-slate-700 p-2 w-full hover:bg-slate-800"
-        >
-            Login
-        </button>
+        <div className="buttons flex flex-col gap-3">
+            <button 
+                type='submit'
+                className="border-2 rounded-sm bg-slate-800 p-2 w-full hover:bg-slate-700"
+            >
+                Login
+            </button>
+            <button 
+                type='button'
+                className="border-2 rounded-sm p-2 w-full hover:bg-slate-800"
+            >
+                Login with google
+            </button>
+        </div>
         <Link
             to="/register"
             className='block mt-3'
